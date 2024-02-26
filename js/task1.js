@@ -9,13 +9,12 @@ const movies = {
   horror: ['The Shining', 'A Nightmare on Elm Street', 'The Exorcist'],
 
   listMoviesByGenre(genre){
-    let returnGene;
-    console.log(genre);
+    let returnGene;   
     switch(genre){
-     case 'action': returnGene = movies.action; break;
-     case 'comedy': returnGene = movies.comedy; break;
-     case 'drama': returnGene = movies.drama; break;
-     case 'horror': returnGene = movies.horror; break;
+      case 'action': returnGene = movies.action; break;
+      case 'comedy': returnGene = movies.comedy; break;
+      case 'drama': returnGene = movies.drama; break;
+      case 'horror': returnGene = movies.horror; break;
     }
     return returnGene;
   },
